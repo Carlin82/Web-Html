@@ -1,0 +1,47 @@
+
+
+	p {
+		font-size:15px;
+		font-family:verdana;
+		
+	}
+	
+	ul,
+	ol {
+		font-size:20px;
+		font-family:Arial;
+	}
+
+.lista {
+	color:red;
+	}
+
+
+
+.imagen-de-periquito {
+	width: 400px;
+	border-width: 10px;
+	border-color: blue;
+	border-style: solid dotted dashed double;
+}
+
+.bordes-redondos {
+	border-radius: 30px;
+}
+
+.contenedor1 {
+	background-color:red;
+}
+
+#app-de-gatos {
+		font-size:30px;
+		color: green;
+		font-family: verdana;
+}
+
+#imagen-cafe {
+	border-radius: 50%;
+	border-width: 10px;
+	border-style: solid;
+	border-color: pink;
+}

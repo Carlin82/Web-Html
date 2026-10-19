@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web de Prueba</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 50px;
+            text-align: center;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        h1 {
+            color: #0066cc;
+        }
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0055b3;
+        }
+        #mensaje {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>¡Hola, mundo!</h1>
+        <p>Esta es una página web de prueba básica con HTML, CSS y JavaScript.</p>
+        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+        <p id="mensaje"></p>
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").innerText = "¡El botón funciona correctamente!";
+        }
+    </script>
+
+</body>
+</html>

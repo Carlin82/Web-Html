@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB del Cafecito</title>
+  </head>
+  <body>
+	  <div class="contenedor1">
+	  <!--Formularios Action se refiere al sitio de escritura, required lo hace campo obligatorio-->
+	<form action="/enviar-respuesta">
+	  <!--Texto-->
+		  <input type="text" placeholder="Introduce tu telefono" required>
+
+<head>
+
+    <style>
+        /* Estilos básicos para la ventana modal */
+        dialog {
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        /* Fondo oscuro detrás del pop-up */
+        dialog::backdrop {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Botón que abre el pop-up -->
+    <button id="abrirBtn">Enviar telefono</button>
+
+    <!-- La ventana pop-up (etiqueta dialog) -->
+    <div>
+    <dialog id="miPopup">
+        <h2>¡Hola querido alumno de 5B!</h2>
+        <p>Imposible conectar con base de datos, te falta desarrollo por hacer.</p>
+        <!-- Botón para cerrar el pop-up -->
+        <button id="cerrarBtn">Cerrar</button>
+    </dialog>
+    </div>
+
+    <script>
+        // Obtenemos los elementos por sus ID
+        const abrirBtn = document.getElementById('abrirBtn');
+        const cerrarBtn = document.getElementById('cerrarBtn');
+        const miPopup = document.getElementById('miPopup');
+
+        // Evento para abrir el pop-up
+        abrirBtn.addEventListener('click', () => {
+            miPopup.showModal();
+        });
+
+        // Evento para cerrar el pop-up
+        cerrarBtn.addEventListener('click', () => {
+            miPopup.close();
+        });
+    </script>
+
+</body>
+</html>
+	
+		  <br>
+	  <!--Checkbox-->
+		  <label for="1"><input id="1" type="checkbox" 
+		    value="Seleccion 1"name="check">Seleccion 1
+		  </label>
+		  <label for="2"><input id="2" type="checkbox" 
+		    value="Seleccion 2"name="check">Seleccion 2
+		  </label>
+		  <label for="3"><input id="3" type="checkbox" 
+		    value="Seleccion 3"name="check">Seleccion 3
+		  </label><br>
+	  <!--Elemento Radio opcion unica de selecciones con funcion default-->
+		  <label for="default"><input id="default" type="Radio" 
+		  value="Def" name="Def-Int-Ext" checked>Default</label><br>
+		  <label for="Interior"><input id="Interior" type="Radio" 
+		  value="Int"name="Def-Int-Ext">Interior</label><br>
+		  <label for="Exterior"><input id="Exterior" type="Radio" 
+		  value="Ext"name="Def-Int-Ext">Exterior</label>
+	</form>	
+  </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+  
+	<!--Link para llamara al archivo css donde se configuran los estilos-->
+	<link href="style.CSS" rel="stylesheet">
+	
+   <!--Titulo de la pagina, este titulo es el que aparece en el buscador web-->
+	<title>Mis Pininos</title>
+  </head>
+  <h2 id="app-de-gatos">App De Gatos</h2>
+  <body style="background-color:peru">
+    	
+	<main>
+  	<!-- (comentario)Esta es una prueba con texto copiado de la pagina de Microsoft-->
+	  <p>Haz clic aqui para ve mas imagenes </p>
+	  <hr>
+  <div class="contenedor1">
+	  <!--Formularios Action se refiere al sitio de escritura, required lo hace campo obligatorio-->
+	<form action="/enviar-respuesta">
+	  <!--Texto-->
+		  <input type="text" placeholder="Introduce tu telefono" required>
+		  <button type="submit">Enviar</button>	
+		  <br>
+	  <!--Checkbox-->
+		  <label for="1"><input id="1" type="checkbox" 
+		    value="Seleccion 1"name="check">Seleccion 1
+		  </label>
+		  <label for="2"><input id="2" type="checkbox" 
+		    value="Seleccion 2"name="check">Seleccion 2
+		  </label>
+		  <label for="3"><input id="3" type="checkbox" 
+		    value="Seleccion 3"name="check">Seleccion 3
+		  </label><br>
+	  <!--Elemento Radio opcion unica de selecciones con funcion default-->
+		  <label for="default"><input id="default" type="Radio" 
+		  value="Def" name="Def-Int-Ext" checked>Default</label><br>
+		  <label for="Interior"><input id="Interior" type="Radio" 
+		  value="Int"name="Def-Int-Ext">Interior</label><br>
+		  <label for="Exterior"><input id="Exterior" type="Radio" 
+		  value="Ext"name="Def-Int-Ext">Exterior</label>
+	</form>	
+  </div>	
+  <div>	
+	  <!--Parrafos que navegan dentro de la misma pagina -->
+	  <p> <a href="#Parrafo-1">Como Usar KMS</a></p>
+	  <p> <a href="#Parrafo-2">Nota Importante</a></p>
+	  <p> <a href="#Parrafo-3">Clientes</a></p>
+  </div>
+	  <!--hr es para lineas divisorias-->
+  <div>
+	  <hr>
+	  
+	  <p> <a href="https://www.freepik.es/fotos-vectores-gratis/gatos"target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" class="bordes-redondos" alt="Un gato wevoneando"></a></p>
+	  <img src="Periquito.jpg" class="imagen-de-periquito" alt= "Mis hermosos bebes ">
+	  <h4>Si desea conocer mas acerca de gatos por favor presione <a href="https://www.freepik.es/fotos-vectores-gratis/gatos"target="_blank" rel="noopener noreferrer">aqui </a></h4>
+	   <hr>
+	  <!--Enlace Muerto, tambien se puede usar para recargar pagina-->
+	  <h4>Recargar pagina haga clic <a href="#" rel="noopener noreferrer">aqui </a></h4>
+	  	 
+	  <!--Se asignan los parrafos con la funcion id -->	
+	  <h3 id="Parrafo-1">Como Usar KMS</h3>
+	  <p>Para usar KMS, debe tener un host de KMS disponible en la red local. 
+	  Los equipos que se activan con un host de KMS deben tener una clave de producto específica. 
+	  A veces, se hace referencia a esta clave como clave de cliente de KMS, 
+	  pero se conoce formalmente como clave de licencia por volumen genérica (GVLK) de Microsoft. Los equipos que ejecutan 
+	  ediciones con licencias por volumen de Windows Server y el cliente de Windows son, de forma predeterminada, 
+	  clientes de KMS sin necesidad de configuración adicional, ya que la GVLK pertinente ya está ahí.</p>
+	  <h3 id="Parrafo-2">Nota Importante</h3>
+	  <p>La versión 20H2 de Windows Server alcanzó el final del servicio el 9 de agosto de 2022 y ya no recibe 
+	  actualizaciones de seguridad. Esto incluye la retirada del canal semianual (SAC) de Windows Server sin futuras versiones.</p>
+	  <p id="Parrafo-3">Los clientes que usan Windows Server <em>SAC</em> deben cambiar a Azure Stack HCI. Como alternativa, 
+	  los clientes pueden usar el canal de mantenimiento a largo plazo de Windows Server. </p>
+	  <hr>
+	  <!--Lista no ordenada--> 
+  </div>
+	<div>
+	  <p><Strong>Lista no ordenada con puntito</Strong></p>
+		<ul class="lista">
+		  <li><s>Elemento Tachado</s></li>
+		  <!--Strong es para hacerlo negrito-->
+		  <li><strong>Elemento Negrito</strong></li>
+		  <li><em>Elemento Manuscrito</em></li>
+		</ul>
+		<hr>
+	  <!--Lista ordenada-->
+	  <p><Strong>Lista Ordenada con Numero</strong></p>
+		<ol class="lista">
+		  <li><img src="imgcafe.jpg" id="imagen-cafe" ALT="El cafecito"> Elemento en la lista</li>
+		  <li>Elemento en la lista</li>
+		  <li>Elemento en la lista</li>
+	</div>
+	</main>
+	<footer>
+	 <p><small>Pie para Pagina de Prueba con enlace a <a href="https://google.com" target="_blank" rel="noopener noreferrer">google </a></small></p>
+	</footer>
+  </body>
+</html>

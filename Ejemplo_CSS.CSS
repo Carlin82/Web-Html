@@ -1,0 +1,19 @@
+/* Estilo para el título */
+h1 {
+  color: #0055FF;         /* Cambia el color del texto a azul oscuro */
+  font-size: 40px;        /* Define el tamaño de la letra */
+  text-align: center;     /* Centra el texto en la pantalla */
+}
+
+/* Estilo para el párrafo */
+p {
+  color: #34495e;         /* Cambia el color del texto a gris oscuro */
+  font-size: 20px;        /* Define el tamaño de la letra */
+  line-height: 1.5;       /* Controla el espacio entre líneas */
+}
+/*
+li {
+  color: #33ff00;         /* Cambia el color del texto a azul oscuro */
+ /* font-size: 20px;        /* Define el tamaño de la letra */
+ /* text-align: center;     /* Centra el texto en la pantalla */
+/*} */
